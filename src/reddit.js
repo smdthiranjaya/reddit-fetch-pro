@@ -90,7 +90,7 @@ function Reddit(options) {
             "data": paket
         };
     }).catch(err => {
-        throw new TypeError(`[ Can't found ${type === 'user' ? 'user' : 'your search'} ], Need help with reddit-scrapper ??, Join our discord server: https://discord.gg/gzGFyajtbe`)
+        throw new TypeError(`[ Can't found ${type === 'user' ? 'user' : 'your search'} ]`)
     });
 }
 
